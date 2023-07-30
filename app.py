@@ -51,7 +51,7 @@ def login():
         else:
             return "Invalid credentials. Please try again."
 
-    return render_template("index.html")
+    return render_template("login.html")
 
 @app.route("/home")
 def home():
